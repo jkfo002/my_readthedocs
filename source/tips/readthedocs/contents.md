@@ -122,6 +122,10 @@
 
   >sphinx_rtd_theme
   >recommonmark
+  
+- 更新
+
+  本地更改后push到github就可以，readthedocs自动更新
 
 ## 参考
 
