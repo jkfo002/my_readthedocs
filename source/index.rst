@@ -11,6 +11,7 @@ Welcome to my_readthedocs's documentation!
    :caption: Contents:
    
    mechine_learning/index
+   tips/index
 
 
 
