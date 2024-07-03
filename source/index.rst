@@ -12,6 +12,7 @@ Welcome to my_readthedocs's documentation!
    
    mechine_learning/index
    tips/index
+   algorithm/index
 
 
 
