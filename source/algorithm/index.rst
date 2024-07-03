@@ -1,4 +1,4 @@
-mechine_learning
+algorithm
 =================================
 
 .. toctree::
