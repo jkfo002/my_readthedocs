@@ -1,7 +1,7 @@
 .. my_readthedocs documentation master file, created by
    sphinx-quickstart on Tue Jun 18 11:18:21 2024.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+   快乐科研！
+   胡说八道的地方
 
 Welcome to my_readthedocs's documentation!
 ==========================================
@@ -10,15 +10,6 @@ Welcome to my_readthedocs's documentation!
    :maxdepth: 2
    :caption: Contents:
    
+   algorithm/index
    mechine_learning/index
    tips/index
-   algorithm/index
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`

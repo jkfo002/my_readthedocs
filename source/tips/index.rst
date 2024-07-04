@@ -6,3 +6,4 @@ tips
 
    git/contents
    readthedocs/contents
+   GO/GO
