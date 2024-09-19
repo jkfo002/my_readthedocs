@@ -39,12 +39,22 @@ $$
 import pandas as pd
 import sys
 
-exp_profile = sys.argv[1] # expression profile component normalized by the maximal component value
+def tau_calu(x):
+    max_nor = {i: x[i] / max(x) for i in tissue} # normalized by the maximal component value
+    #print(max_nor)
+    tau = 0
+    for k in max_nor.keys():
+        tau += (1 - max_nor[k])
+    tau = tau / 4
+    return tau
+
+exp_profile = sys.argv[1] # expression profile component 
 # 多个重复可求平均
 
 exp_df = pd.read_csv(exp_profile, header=0, index_col=None, sep="\t")
 n = exp_df.shape[1]
-tau_df = exp_df.apply(lambda x: (n - x.sum)/(n-1), axis = 1)
+tissue = exp_df.columns
+exp_df["tau"] = exp_df.apply(lambda x: tau_calu(x), axis = 1)
 ```
 
 ## 参考
